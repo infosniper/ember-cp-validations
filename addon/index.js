@@ -213,7 +213,7 @@ import Validator from './validations/validator';
  *
  * const Validations = buildValidations({
  *   firstName: {
- *     description: 'First Name'
+ *     description: 'First Name',
  *     validators: [
  *       validator('presence', {
  *         presence: true,
@@ -223,7 +223,7 @@ import Validator from './validations/validator';
  *    },
  *   lastName: validator('presence', true)
  * }, {
- *   description: 'This field'
+ *   description: 'This field',
  *   dependentKeys: ['model.i18n.locale'],
  *   disabled: computed.readOnly('model.disableValidations')
  * });
